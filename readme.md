@@ -34,7 +34,7 @@ github:
 
 可以發現Skip List和Sorted Array的速度差不多Array of Sorted Arrays的速度則是最慢。
 
-因為Skip List和Sorted Array的query複雜度都是$O(logN)$所以執行時間差不多，Array of Sorted Arrays則是$O((\log N)^2)$，而且Skip List和Sorted Array中的內容都是單調的，所以可以直接用陣列存而Array of Sorted Arrays因為數字可能有大小之差所以要用multiset，每次insert都是$O(logN)$所以速度又更慢。
+因為Skip List和Sorted Array的query複雜度都是$O(logN)$所以執行時間差不多，Array of Sorted Arrays則是$O((\log N)^2)$。
 
 ![Untitled](readme/Untitled%202.png)
 
